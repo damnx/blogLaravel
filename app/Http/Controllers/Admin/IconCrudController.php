@@ -29,7 +29,7 @@ class IconCrudController extends CrudController
 
         // $this->crud->setFromDb();
 
-        $this->crud->addColumns(['name', 'icon']);
+        $this->crud->addColumns(['name']);
         $this->crud->addField('name');
         $this->crud->addField([
             'label'   => 'Icon',
